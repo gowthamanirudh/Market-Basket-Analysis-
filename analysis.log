@@ -1,0 +1,32 @@
+/home/aniduh/.local/lib/python3.13/site-packages/mlxtend/frequent_patterns/fpcommon.py:161: DeprecationWarning: DataFrames with non-bool types result in worse computationalperformance and their support might be discontinued in the future.Please use a DataFrame with bool type
+  warnings.warn(
+--- Attempting to load the dataset... ---
+--- Dataset loaded successfully! ---
+
+--- Starting Data Cleaning... ---
+--- Data Cleaning Complete! ---
+
+--- Starting Data Transformation... ---
+--- Data Transformation Complete! ---
+
+--- Generating Frequent Itemsets... ---
+--- Generating Association Rules... ---
+
+--- Top Association Rules Found: ---
+                                          antecedents  ... kulczynski
+72  (ROSES REGENCY TEACUP AND SAUCER, PINK REGENCY...  ...   0.723764
+73                  (GREEN REGENCY TEACUP AND SAUCER)  ...   0.723764
+70  (ROSES REGENCY TEACUP AND SAUCER, GREEN REGENC...  ...   0.704035
+75                   (PINK REGENCY TEACUP AND SAUCER)  ...   0.704035
+5                    (PINK REGENCY TEACUP AND SAUCER)  ...   0.739802
+4                   (GREEN REGENCY TEACUP AND SAUCER)  ...   0.739802
+71  (PINK REGENCY TEACUP AND SAUCER, GREEN REGENCY...  ...   0.673505
+74                  (ROSES REGENCY TEACUP AND SAUCER)  ...   0.673505
+6                   (ROSES REGENCY TEACUP AND SAUCER)  ...   0.739921
+7                   (GREEN REGENCY TEACUP AND SAUCER)  ...   0.739921
+
+[10 rows x 14 columns]
+
+--- Association rules saved to /home/aniduh/Market Basket analysis/association_rules.csv ---
+
+--- Analysis Complete. ---
